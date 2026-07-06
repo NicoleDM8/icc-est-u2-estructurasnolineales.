@@ -308,6 +308,8 @@ public class Graph<T> {
 
 }
 
+```
+
 ### Salida de consola
 
 ![alt text](image5.png)
