@@ -1,11 +1,9 @@
 package structures.graphs;
-
 import java.util.HashMap;
 import java.util.HashSet;
 import java.util.Map;
 import java.util.Set;
 import structures.node.Node;
-
 public class Graph<T> {
     private Map<Node<T>, Set<Node<T>>> graph;
 
@@ -49,5 +47,4 @@ public class Graph<T> {
             System.out.println();
         }
     }
-
 }

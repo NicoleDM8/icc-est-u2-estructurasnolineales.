@@ -250,6 +250,69 @@ public class Ejercicio4 {
 ![alt text](image4.png)
 
 
+## 4. Ejercicio Graph
+
+**Fecha:** 01/07/2026
+
+**Descripción:**
+
+
+### Captura del código de implementación del Graph
+
+![alt text](graph.png)
+
+```
+public class Graph<T> {
+    private Map<Node<T>, Set<Node<T>>> graph;
+
+    public Graph() {
+        this.graph = new HashMap<Node<T>, Set<Node<T>>>();
+    }
+
+    /*
+     * public void add(Node<T> node) {
+     * graph.put(node, new HashSet<Node<T>>());
+     * }
+     */
+
+    public void add(T data) {
+        Node<T> node = new Node<T>(data);
+        graph.putIfAbsent(node, new HashSet<Node<T>>());
+    }
+
+    public void addEdge(T v1, T v2) {
+        Node<T> nv1 = new Node<T>(v1);
+        Node<T> nv2 = new Node<T>(v2);
+        add(v1);
+        add(v2);
+        graph.get(nv1).add(nv2);
+        graph.get(nv2).add(nv1);
+    }
+
+    public void addedgeUni(T v1, T v2) {
+        Node<T> nv1 = new Node<T>(v1);
+        Node<T> nv2 = new Node<T>(v2);
+        add(v1);
+        add(v2);
+        graph.get(nv1).add(nv2);
+    }
+    public void printGraph() {
+        for (Map.Entry<Node<T>, Set<Node<T>>> entry : graph.entrySet()) {
+            System.out.print(entry.getKey() + " -> ");
+            for (Node<T> neighbor : entry.getValue()) {
+                System.out.print(neighbor + " ");
+            }
+            System.out.println();
+        }
+    }
+
+}
+
+### Salida de consola
+
+![alt text](image5.png)
+
+
 ### Url repositorio cargado en el avac
 
 https://github.com/NicoleDM8/icc-est-u2-estructurasnolineales..git
