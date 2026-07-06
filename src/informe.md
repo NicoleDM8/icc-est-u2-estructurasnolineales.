@@ -100,7 +100,9 @@ public class Ejercicio1 {
 ```
 
 ### Salida de consola
+
 ![alt text](image1.png)
+
 
 ## 2. Ejercico 2
 
@@ -141,7 +143,9 @@ public class Ejercicio2 {
 ```
 
 ### Salida de consola
+
 ![alt text](image2.png)
+
 
 ## 3. Ejercicio 3
 
@@ -203,7 +207,9 @@ public class Ejercicio3 {
 ```
 
 ### Salida de consola
+
 ![alt text](image3.png)
+
 
 ## 4. Ejercicio 4
 
@@ -240,7 +246,9 @@ public class Ejercicio4 {
 ```
 
 ### Salida de consola
+
 ![alt text](image4.png)
+
 
 ### Url repositorio cargado en el avac
 
