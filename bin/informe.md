@@ -22,7 +22,6 @@ Compara los valores para posicionar cada nodo en el lugar correcto, asegurando s
 
 ### Captura del código de implementación del ejercicio 1
 ![alt text](INSERTBSTTEST.png)
-
 ```java
 public class InsertBSTTest {
 
