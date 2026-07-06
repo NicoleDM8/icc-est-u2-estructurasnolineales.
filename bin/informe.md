@@ -1,7 +1,3 @@
-Aquí tienes el informe completo con los textos ajustados a 3 líneas, el nombre de **Nicole Estefania Dominguez Muñoz**, y manteniendo exactamente el formato que me enviaste:
-
----
-
 # Práctica: Estructuras Dinámicas No Lineales
 
 ## Datos del Estudiante
