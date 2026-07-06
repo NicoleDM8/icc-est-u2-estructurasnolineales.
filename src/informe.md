@@ -111,6 +111,7 @@ El proceso utiliza recursividad para recorrer todas las ramas, logrando que el �
 
 ### Captura del código de implementación del ejercicio 2
 ![alt text](Eje2.png)
+
 ```java
 public class Ejercicio2 {
 
@@ -152,6 +153,7 @@ El resultado es una lista que agrupa a los nodos según su profundidad, facilita
 
 ### Captura del código de implementación del ejercicio 3
 ![alt text](eje3.png)
+
 ```java
 public class Ejercicio3 {
 
@@ -213,6 +215,7 @@ Determina la profundidad máxima y añade uno al valor mayor para incluir la ra�
 
 ### Captura del código de implementación del ejercicio 4
 ![alt text](eje4.png)
+
 ```java
 public class Ejercicio4 {
 
