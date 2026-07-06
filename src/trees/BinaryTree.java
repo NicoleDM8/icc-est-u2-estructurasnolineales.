@@ -1,11 +1,6 @@
-
 package trees;
-
-import java.util.LinkedList;
-import java.util.Queue;
-
 import structures.node.Node;
- 
+
 
 public class BinaryTree<T extends Comparable<T>> {
 

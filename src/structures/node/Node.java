@@ -44,5 +44,15 @@ public class Node<T> {
     public String toString() {
         return "Node [" + value + "]";
     }
+    public int hashCode() {
+      return value.hashCode();
+    }
+    @Override
+    public boolean equals(Object o) {
+        if (this == o) return true;
+        if (o == null || getClass() != o.getClass()) return false;
+        Node<?> node = (Node<?>) o;
+        return value != null ? value.equals(node.value) : node.value == null;
+    }
 
 }
