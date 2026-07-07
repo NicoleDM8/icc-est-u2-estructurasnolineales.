@@ -4,6 +4,7 @@
 
 * **Nombre:** Nicole Estefania Dominguez Muñoz
 * **Curso:** grupo #3
+* **Materia:** Estructuras de Datos
 
 ---
 
