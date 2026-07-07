@@ -100,7 +100,6 @@ public class Ejercicio1 {
 ```
 
 ### Salida de consola
-
 ![alt text](image1.png)
 
 
