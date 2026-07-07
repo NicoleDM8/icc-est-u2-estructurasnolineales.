@@ -100,8 +100,8 @@ public class Ejercicio1 {
 ```
 
 ### Salida de consola
-![alt text](ejepc1.png)
 
+![alt text](../lib/ejepc1.png)
 
 ## 2. Ejercico 2
 
